@@ -978,7 +978,7 @@
 @media(max-width:640px){
 .cd-dropdown-trigger {
 	font-size: 1.1em;
-    padding: 0 30px 0 0;
+    padding: 0px 26px 0px 9px;
 }
 .cd-dropdown-trigger::after {
     right: 7px; 

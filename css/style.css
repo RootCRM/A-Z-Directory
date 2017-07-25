@@ -745,6 +745,7 @@ p {
     font-size: 1em;
     color: #999;
     line-height: 1.8em;
+	text-align: justify;
 }
 .w3agile-ftr-top {
     padding: 4em 0;
@@ -1596,8 +1597,10 @@ input#amount {
 /*-- offers-page --*/
 h3.w3ls-title.w3ls-title1 {
     text-align: center;
-    margin: 0 0 1.5em;
-	font-size: 2.5em;
+    font-size: 2.5em;
+margin-top: 5px;
+margin-bottom: 23px;
+
 }
 .offer-card-row {
     margin: 4em 0;
@@ -4195,3 +4198,148 @@ footer h5{
 	color: #fff;
 	text-decoration: none;
 }
+
+
+
+
+
+
+.entry-content img, {
+ max-width: 100%!important;
+ height: auto;
+}
+.blog-post {
+	margin-bottom: 12px;
+	border: 1px solid #ddd;
+border-radius: 5px;
+padding: 18px;
+
+}
+.blog-post.single {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.blog-post .entry-title a {
+	color: #000;
+	transition: all .5s ease-out;
+	text-shadow: none;
+	font-size:20px;
+	margin-top:0px;
+}
+.blog-post .entry-title a:hover {
+	color: #f37e0c;
+	text-shadow: none;
+}
+.entry-meta, .entry-utility {
+	font-size: 1.4rem;
+	color: #666;
+	border-top: 1px solid #eee;
+margin-top: 17px;
+padding-top: 5px;
+
+}
+.entry-utility a:hover, .entry-meta a:hover {
+	text-decoration: underline;
+}
+
+.entry-utility a:hover, .entry-meta a:hover {
+	text-decoration: underline;
+}
+a.more-link {
+	display: block;
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: #fc821f;
+	position: relative;
+top: 22px;
+
+	
+}
+
+
+a.more-link:hover {
+	color:#000000;
+}
+
+@media(min-width:550px) {
+a.more-link {
+	float: right;
+}
+}
+
+
+.right-arrow {
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-left: 6px solid #f37e0c;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+
+.alignleft {
+    float: left;
+    margin: 0px 15px 10px 0px;
+}
+.img-width-300 {
+    max-width: 300px;
+}
+.img-border {
+    border: 1px solid #bbb;
+    padding: 2px;
+}
+
+.entry-title{
+	padding-bottom:7px;
+}
+
+
+.pagination {
+	display: block;
+	margin-left: -8px;
+	margin-top: 15px;
+}
+
+@media(min-width:550px) {
+.pagination {
+	float: right;
+	clear: none;
+	margin-top: 0px;
+}
+.show-results {
+	float: left;
+	margin-bottom: 0px;
+}
+}
+.pagination ul li {
+	list-style: none;
+	float: left;
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+.pagination ul li a {
+	padding: 4px 10px;
+	background: #FFF;
+	border: 1px solid #f37e0c;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	color:#000;
+}
+.pagination ul li a:hover {
+	background: #f37e0c;
+	color: #fff;
+}
+
+.content h4{
+	padding-bottom: 7px;
+}
+
+
+
